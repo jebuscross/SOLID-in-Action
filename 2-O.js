@@ -24,7 +24,7 @@ class Circle extends Shape {
   constructor(radius) {
     super()
     // this.type = 'circle'
-    this.radius = this.radius
+    this.radius = radius
   }
 
   area() {
