@@ -6,7 +6,7 @@ class Shape {
   }
 }
 
-// If we want to create another figure Rectangle then we need to change multiple classes
+// If we want to create another shape - Rectangle then we need to change multiple classes
 // Instead we create parent class with method area() which must be in all our child-classes
 class Square extends Shape {
   constructor(size) {
