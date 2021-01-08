@@ -37,7 +37,7 @@ class Rectangle extends Shape {
   constructor(width, height) {
     super()
     this.width = width
-    this.shape = height
+    this.height = height
   }
 
   area() {
